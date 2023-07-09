@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import Status from './Status.styled';
 
 const FriendListItem = ({ friends }) => {
@@ -17,4 +19,12 @@ const FriendListItem = ({ friends }) => {
   });
 };
 
+FriendListItem.prototype = {
+  friends: PropTypes.shape({
+    id: PropTypes.string,
+    isOnline: PropTypes.bool,
+    avatar: PropTypes.string,
+    name: PropTypes.string,
+  }),
+};
 export default FriendListItem;
