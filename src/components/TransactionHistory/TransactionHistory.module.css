@@ -1,0 +1,31 @@
+.transactionHistory {
+  width: 900px;
+  border: 1px solid black;
+}
+.tableHead {
+  background-color: aquamarine;
+  padding: 10px;
+  font-size: 30px;
+}
+.tableBody {
+  text-align: center;
+  font: 25px sans-serif;
+}
+.tableBodyType {
+  text-transform: capitalize;
+  border-bottom: 1px solid black;
+  padding-left: 60px;
+  text-align: start;
+  width: 200px;
+}
+.tableBodyAmount {
+  border-bottom: 1px solid black;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.tableBodyCurrency {
+  padding-right: 60px;
+  text-align: end;
+  width: 200px;
+  border-bottom: 1px solid black;
+}
